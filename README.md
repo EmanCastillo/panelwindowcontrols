@@ -1,5 +1,6 @@
 # Panel Window Controls
-
+![Normal Form](screenshots/main.png)  
+![Inactive Form](screenshots/inactive.png)  
 Window control buttons for Plasma panels (6.0+), implemented in pure QML.
 
 This widget provides minimize, maximize/restore, and close buttons for the active window, with smooth animations and configurable behavior. It is inspired by earlier implementations, but rebuilt from scratch for long-term stability and maintainability.
