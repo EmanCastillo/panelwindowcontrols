@@ -50,13 +50,40 @@ This code, however, is ignored if "Follow KWin button order" is enabled.
 
 ---
 
+## Requirements
+
+- KDE Plasma 6.0+
+- `kpackagetool6`
+
+---
+
 ## Installation
 
-### Option 1: Install as a package
+### Option 1: Install from GitHub
 
 ```bash
+git clone https://github.com/EmanCastillo/panelwindowcontrols.git
+cd panelwindowcontrols
+kpackagetool6 --type Plasma/Applet --install package
+kquitapp6 plasmashell
+plasmashell --replace &
+```
+
+### Option 2: Install from a package
+Download your choice of package from releases. Then execute the following commands in your terminal:
+```bash
 kpackagetool6 --type Plasma/Applet --install path/to/package
-````
+kquitapp6 plasmashell
+plasmashell --replace &
+```
+
+### Adding the widget
+
+After installation:
+
+```text
+Right-click panel → Add Widgets → search "Panel Window Controls"
+```
 
 ---
 
