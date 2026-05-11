@@ -1,0 +1,24 @@
+{
+  "KPlugin": {
+    "Authors": [
+      {
+        "Email": "emancastillo2005@gmail.com",
+        "Name": "Eman Castillo Hernandez"
+      }
+    ],
+    "Category": "Windows and Tasks",
+    "Description": "Window control buttons for Plasma panels. Inspired by earlier implementations, but built for longer-term stability and maintainability.",
+    "Icon": "preferences-system-windows",
+    "Id": "org.emancastillo.panelwindowcontrols",
+    "License": "GPL-2.0-or-later",
+    "Name": "Panel Window Controls",
+    "Version": "1.0.0"
+  },
+  "KPackageStructure": "Plasma/Applet",
+  "X-Plasma-API": "declarativeappletscript",
+  "X-Plasma-MainScript": "ui/main.qml",
+  "X-Plasma-ConfigPlugins": [
+    "kcm_qml"
+  ],
+  "X-Plasma-API-Minimum-Version": "6.0"
+}
