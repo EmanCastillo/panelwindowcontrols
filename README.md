@@ -1,7 +1,5 @@
 # Panel Window Controls
 [![Demo](screenshots/main.png)](screenshots/demo.webm)  
-
-![Normal Form](screenshots/main.png)  
 ![Inactive Form](screenshots/inactive.png)  
 Window control buttons for Plasma panels (6.0+), implemented in pure QML.
 
