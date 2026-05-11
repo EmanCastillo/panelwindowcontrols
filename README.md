@@ -1,5 +1,5 @@
 # Panel Window Controls
-<video src="screenshots/demo.webm" controls width="600"></video>  
+[![Demo](screenshots/main.png)](screenshots/demo.webm)  
 
 ![Normal Form](screenshots/main.png)  
 ![Inactive Form](screenshots/inactive.png)  
